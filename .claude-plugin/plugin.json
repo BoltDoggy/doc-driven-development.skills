@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "doc-driven-development",
+  "description": "文档驱动开发（DDD）工作流——强制先文档后代码，确保需求、设计、实现全程可追溯。适用于任何需要代码变更的场景，自动触发 DDD 流程：新功能走完整模式（需求→设计→确认→实现），Bug 修复走轻量模式。",
+  "version": "1.0.0",
+  "skills": "./skills/ddd-workflow",
+  "author": {
+    "name": "bolt"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ddd",
+    "document-driven-development",
+    "documentation",
+    "workflow",
+    "requirements",
+    "design-docs"
+  ],
+  "strict": true
+}
